@@ -111,7 +111,7 @@ class _BookListPageState extends State<BookListPage> {
             // Navigate to the insert page and await the result
             final result = await Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => BookInsertPage()),
+              MaterialPageRoute(builder: (context) => AddBookPage()),
             );
 
             // If the result is true, refresh the book list
